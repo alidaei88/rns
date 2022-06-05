@@ -1,0 +1,30 @@
+.dashboard{
+    width: 60%;
+    background-color: #EFFFFD;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dashboardChart {
+    width: 30vh;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 980px) {
+    .dashboardChart {
+        width: 70%;
+        margin: 5vh 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .dashboardChart {
+        transform: rotateZ(90deg);
+        margin: 5vh 0;
+    }
+}
